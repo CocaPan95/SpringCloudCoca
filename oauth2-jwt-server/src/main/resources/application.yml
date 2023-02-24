@@ -1,0 +1,11 @@
+server:
+  port: 9401
+spring:
+  application:
+    name: oauth2-jwt-service
+  redis: #redis相关配置
+    password: 123456pq #有密码时设置
+    host: 192.168.5.202
+    port: 6379
+    database: 3
+
